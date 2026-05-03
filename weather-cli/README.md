@@ -30,7 +30,7 @@ Description: Clear sky
 ### Build it yourself
 To compile the app into a standalone executable that you can use anywhere:
 ```bash
-go build -o weather main.go
+go build -o bin/weather
 ./weather --city "Tokyo"
 ```
 
